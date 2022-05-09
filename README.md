@@ -4,8 +4,10 @@ These projects are made using web technologies - HTML, CSS, Bootstrap, and Javas
 
 | Project | Live Demo Link |
 | ---- | ---- |
+| AudioBar | [Demo](https://suchitasriramka.github.io/html-css-js-projects/AudioBar/) |
 | Books | [Demo](https://suchitasriramka.github.io/html-css-js-projects/Books/) |
 | ColorMatrix | [Demo](https://suchitasriramka.github.io/html-css-js-projects/ColorMatrix/) |
+| DrinkWater | [Demo](https://suchitasriramka.github.io/html-css-js-projects/DrinkWater/) |
 | QuizApp | [Demo](https://suchitasriramka.github.io/html-css-js-projects/QuizApp/) |
 | TinDog | [Demo](https://suchitasriramka.github.io/html-css-js-projects/TinDog/) |
 | expanding-cards | [Demo](https://suchitasriramka.github.io/html-css-js-projects/expanding-cards/) |
