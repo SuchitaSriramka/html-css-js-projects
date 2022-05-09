@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+div {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+input {
+    text-align: center;
+    background-color: darksalmon;
+    border: none;
+    font-size: 1em;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+}

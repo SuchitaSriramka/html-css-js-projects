@@ -1,0 +1,50 @@
+body {
+    box-sizing: border-box;
+    background-image: linear-gradient(45deg, rgb(236, 125, 236), rgb(250, 208, 250));
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+}
+
+.search {
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 1.3em;
+    position: relative;
+    background-color: white;
+    transition: 0.3s ease;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 1.3em;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+
+.container.active .search {
+    width: 200px;
+}
+
+.container.active #btn {
+    transform: translateX(200px);
+}
+
+.search:focus,
+#btn:focus {
+    outline: none;
+}

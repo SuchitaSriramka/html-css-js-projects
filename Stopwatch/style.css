@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2c3347;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 200;
+    text-align: center;
+    padding: 0 60px;
+    margin: 0;
+}
+
+.circle {
+    height: 350px;
+    width: 350px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    font-weight: 100;
+    font-size: 45px;
+    font-family: monospace;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#playButton {
+    display: block;
+}
+
+#pauseButton {
+    display: none;
+}
