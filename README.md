@@ -19,4 +19,4 @@ These projects are made using web technologies - HTML, CSS, Bootstrap, and Javas
 
 # Acknowledgement
 
-The projects discussed in this repo are taken from various sources and the rights to them belongs to their respective owners only.
+The projects in this repo are taken from various sources and the rights to them belongs to their respective owners only.
