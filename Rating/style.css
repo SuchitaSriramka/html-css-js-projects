@@ -1,0 +1,94 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.925);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 30vw;
+    padding: 2rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+.icon i{
+    color: orange;
+    background-color: rgba(255, 255, 255, 0.162);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+p{
+    color: rgb(182, 174, 174)
+}
+.ratings{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rating{
+    background-color: rgba(255, 255, 255, 0.16);
+    padding: 0.5rem;
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.rating:hover{
+    background-color: orange;
+    color: white;
+}
+.btn{
+    width: 100%;
+    border-radius: 1rem;
+    height: 2rem;
+    text-transform: uppercase;
+    background-color: orange;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: orange;
+}
+.selected{
+    background-color: orange;
+    color: white;
+}
+
+/* ---------------- */
+
+.thankyou-container{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.thankyou-container i{
+    font-size: 2rem;
+}
+.given-rating{
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.078);
+    padding: 0.4rem 1rem;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    color: orange;
+}
+@media screen and (max-width: 550px) {
+    .container{
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
