@@ -13,6 +13,8 @@ These projects are made using web technologies - HTML, CSS, Bootstrap, and Javas
 | drag-n-drop | [Demo](https://suchitasriramka.github.io/html-css-js-projects/drag-n-drop/) |
 | expanding-cards | [Demo](https://suchitasriramka.github.io/html-css-js-projects/expanding-cards/) |
 | tic-tac-toe | [Demo](https://suchitasriramka.github.io/html-css-js-projects/tic-tac-toe/) |
+| Rating | [Demo](https://suchitasriramka.github.io/html-css-js-projects/Rating/) |
+
 
 
 
